@@ -4,7 +4,7 @@
 
 ```
 npm i
-npm run compile
+npm run build
 npm run exec
 ```
 
