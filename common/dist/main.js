@@ -3,7 +3,6 @@
 
 var Prime      = require("./prime");
 var Pervasives = require("bs-platform/lib/js/pervasives");
-var Jquery     = require("./jquery");
 var $$String   = require("bs-platform/lib/js/string");
 var List       = require("bs-platform/lib/js/list");
 
@@ -35,8 +34,6 @@ var result = $$String.concat(", ", List.map(Pervasives.string_of_int, primes));
 console.log("Finding prime numbers.");
 
 console.log(result);
-
-Jquery.set_attr(/* () */0);
 
 exports.$neg$neg = $neg$neg;
 /* primes Not a pure module */

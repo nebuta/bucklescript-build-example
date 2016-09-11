@@ -9,4 +9,3 @@ let () =
     let result = String.concat ", " (List.map string_of_int primes) in
     print_endline "Finding prime numbers.";
     print_endline result;
-    Jquery.set_attr ();
